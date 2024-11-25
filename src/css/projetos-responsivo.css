@@ -1,0 +1,174 @@
+@media(min-width: 1200px) {
+
+    .header {
+        padding: 70px 0px 80px 90px;
+        font-size: 21px;
+    }
+
+
+    .home {
+        padding-left: 170px;
+        padding-top: 50px;
+        margin-bottom: 130px;
+    }
+    
+    .home h1 {
+        font-size: 85px;
+        width: 765px;
+        line-height: 85px;
+    }
+    
+    .home p {
+        font-size: 30px;
+        padding-top: 15px;
+        width: 540px;
+        line-height: 30px;
+    }
+    
+    .home .fa-circle-arrow-down {
+        font-size: 85px;
+        margin-top: 40px;
+    }
+
+
+
+
+    .cases {
+        margin-left: 170px;
+        margin-bottom: 250px;
+        width: 1220px;
+        height: 900px;
+    }
+    
+    .cases .case .image img {
+        border-radius: 80px;
+        width: 1220px;
+        height: 770px;
+    }
+    
+    .cases .case .image .fa-circle-arrow-right {
+        font-size: 60px;
+        position: relative;
+        bottom: 355px;
+        right: 120px;
+        width: 60px;
+    }
+    
+    .cases .case .info{
+        padding-top: 40px;
+        line-height: 45px;
+    }
+    
+    .cases .case .info h3 {
+        font-size: 60px;
+        width: 640px;
+    }
+    
+    .cases .case .info p {
+        font-size: 35px;
+        width: 460px;
+    }
+    
+    .cases .case .info .botao {
+        width: 345px;
+        height: 60px;
+        padding-top: 15px;
+    }
+    
+    .cases .case .info .botao button {
+        width: 345px;
+        height: 60px;
+        border-radius: 10px;
+        padding-left: 35px;
+        font-size: 28px;
+    }
+    
+    .cases .case .info .botao .fa-circle-arrow-right {
+        position: relative;
+        left: 270px;
+        bottom: 48px;
+        font-size: 30px;
+    }
+
+
+
+
+    .contato {
+        width: 1220px;
+        height: 500px;
+        border-radius: 50px;
+        margin-left: 170px;
+        margin-bottom: 200px;
+    }
+    
+    .contato .cont-info {
+        padding: 70px 70px 25px 70px;
+    }
+
+    .contato .cont-info.principal img {
+        width: 140px;
+    }
+    
+    .contato .cont-info .principal p{
+        font-size: 80px;
+        width: 680px;
+        padding-top: 30px;
+        line-height: 80px;
+    }
+    
+    .contato .cont-info .principal p span {
+        font-size: 80px;
+    } 
+    
+    .contato .cont-info .elen-contato {
+        padding-top: 55px;
+    }
+    
+    .contato .cont-info .elen-contato img {
+        border-radius: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        width: 90px;
+    }
+    
+    .contato .cont-info .elen-contato a {
+        font-size: 40px;
+        margin-left: 20px;
+        border-bottom: 3px solid #ffffff;
+        width: 300px;
+    }
+    
+    .contato .cont-info .email {
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    
+    .contato .cont-info .email p {
+        font-size: 22px;
+        border-bottom: 1px solid #ffffff;
+        width: 90px;
+    }
+    
+    .contato .cont-info .email a {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+
+    .contato .cont-info .botao {
+        margin-top: 160px;
+        margin-left: 30px;
+    }
+
+    .contato .cont-info .botao .fa-circle-arrow-right {
+        font-size: 24px;
+        align-items: center;
+        position: relative;
+        left: 50px;
+    }
+    
+    .contato .cont-info .botao button {
+        font-size: 22px;
+        padding: 22px 75px;
+        border-radius: 20px;
+    }
+}

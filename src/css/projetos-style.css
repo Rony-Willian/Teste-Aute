@@ -59,7 +59,7 @@ body {
 .cases {
     margin-left: 140px;
     margin-bottom: 250px;
-    width: 1055px;
+    width: 1040px;
     height: 800px;
     display: flex;
 }
@@ -73,9 +73,26 @@ body {
     flex-flow: column;
 }
 
-.cases .case img {
+.cases .case .image {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cases .case .image img {
     max-width: 100%;
+    max-height: 100%;
     border-radius: 30px;
+}
+
+.cases .case .image .fa-circle-arrow-right {
+    font-size: 40px;
+    position: relative;
+    bottom: 305px;
+    right: 60px;
+    border-radius: 100%;
+    width: 40px;
+    color: #ffffff;
+    background: #305973;
 }
 
 .cases .case .info{
@@ -101,6 +118,7 @@ body {
     width: 290px;
     height: 60px;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .cases .case .info .botao button {
@@ -109,7 +127,6 @@ body {
     border-radius: 8px;
     border: none;
     background: #262626;
-
     text-align: start;
     padding-left: 30px;
     color: #ffffff;
@@ -117,37 +134,15 @@ body {
     text-transform: uppercase;
 }
 
-.cases .case .info .fa-circle-arrow-right {
+.cases .case .info .botao .fa-circle-arrow-right {
     position: relative;
     left: 240px;
     bottom: 38px;
     color: #305973;
     background: #ffffff;
     font-size: 30px;
+    border-radius: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -164,15 +159,22 @@ body {
 
 .contato .cont-info {
     display: flex;
-    padding: 50px 50px 15px 50px;
+    padding: 50px 50px 20px 50px;
     color: #ffffff;
     flex-flow: column wrap;
+}
+
+.contato .cont-info.principal img {
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .contato .cont-info .principal p{
     font-size: 65px;
     width: 580px;
     padding-top: 30px;
+    line-height: 65px;
 }
 
 .contato .cont-info .principal p span {
@@ -184,7 +186,7 @@ body {
 .contato .cont-info .elen-contato {
     display: flex;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 30px;
 }
 
 .contato .cont-info .elen-contato img {
@@ -206,7 +208,7 @@ body {
 
 .contato .cont-info .email {
     margin-top: 100px;
-    margin-left: 75px;
+    margin-left: 65px;
 }
 
 .contato .cont-info .email p {
@@ -222,8 +224,18 @@ body {
 }
 
 .contato .cont-info .botao {
-    margin-top: 140px;
-    margin-left: 75px;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.contato .cont-info .botao .fa-circle-arrow-right {
+    font-size: 22px;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.contato .cont-info .botao button {
     font-size: 20px;
     text-transform: uppercase;
     padding: 18px 55px;

@@ -8,6 +8,11 @@
     src: url(../fonts/fonnts.com-DegularDemo-BoldItalic.otf);
 }
 
+@font-face {
+    font-family: 'DegularDemo Bold';
+    src: url(../fonts/fonnts.com-DegularDemo-Bold.otf);
+}
+
 body {
     font-family: 'DegularDemo';
 }
@@ -38,7 +43,7 @@ body {
 
 .home h1 {
     font-size: 70px;
-    width: 640px;
+    width: 630px;
     line-height: 70px;
 }
 
@@ -144,8 +149,9 @@ body {
 
 .autenticidade .textos h1{
     font-size: 180px;
+    font-family: 'DegularDemo Bold';
     line-height: 150px;
-    background: text linear-gradient(to right, #000000 370px, #ffffff 150px);
+    background: text linear-gradient(to right, #000000 374px, #ffffff 150px);
     -webkit-text-fill-color: transparent;
 }
 
@@ -161,21 +167,6 @@ body {
     color: #305973;
     padding-top: 30px;
 }
-
-/* .autenticidade .textos .imagem {
-    position: relative;
-    bottom: 545px;
-    left: 0px;
-    border-radius: 20px;
-    padding-left: 370px; 
-} */
-
-
-/* .autenticidade .textos .imagem img {
-    border-radius: 40px;
-    max-width: 70%;
-    max-height: 100%;
-} */
 
 
 
@@ -257,18 +248,16 @@ body {
     
     font-size: 20px;
     
-    border-top: 1px solid #262626;
+    border-top: 1px solid #000000;
     padding-top: 20px;
 }
 
 .roda-pe p {
     width: 500px;
     padding-left: 10px;
-    color: #262626;
 }
 
 .roda-pe span {
-    color: #262626;
     width: 350px;
     padding-left: 150px
 }
@@ -293,10 +282,16 @@ body {
     flex-flow: column wrap;
 }
 
+.contato .cont-info.principal img {
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .contato .cont-info .principal p{
     font-size: 65px;
     width: 580px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .contato .cont-info .principal p span {
@@ -312,6 +307,8 @@ body {
 
 .contato .cont-info .elen-contato img {
     border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .contato .cont-info .elen-contato a {
@@ -324,7 +321,7 @@ body {
 
 .contato .cont-info span {
     font-size: 12px;
-    padding-top: 130px;
+    padding-top: 90px;
 }
 
 .contato .cont-info .email {
@@ -346,7 +343,17 @@ body {
 
 .contato .cont-info .botao {
     margin-top: 140px;
-    margin-left: 75px;
+    margin-left: 50px;
+}
+
+.contato .cont-info .botao .fa-circle-arrow-right {
+    font-size: 22px;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.contato .cont-info .botao button {
     font-size: 20px;
     text-transform: uppercase;
     padding: 18px 55px;
