@@ -33,6 +33,9 @@ body {
     text-transform: uppercase;
 }
 
+.menu li .ativo {
+    border-bottom: solid 1px #000000;
+}
 
 
 
@@ -198,42 +201,48 @@ body {
     right: 40px;
 }
 
-.cases {
+.case {
     display: none;
 }
 
-.cases.aberto {
+.case.aberto {
     display: flex;
 }
 
-.cases img {
+.case img {
     max-width: 100%;
     border-radius: 30px;
 }
 
-.cases .info {
+.case .info {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
 }
 
-.cases .info p {
+.case .info p {
     font-size: 16px;
     margin-top: 35px;
 }
 
-.cases .info h3{
+.case .info h3{
     font-size: 40px;
     width: 300px;
     margin-top: 20px;
 }
 
-.cases .info .fa-circle-arrow-right {
+.case .info .fa-circle-arrow-right {
     align-self: flex-start;
     margin-top: auto;
     margin-bottom: 40px;
     color: #305973;
     font-size: 37px;
+}
+
+.case .info .fa-circle-arrow-right:active {
+    color: #ffffff;
+    background: #305973;
+    border-radius: 50%;
 }
 
 
@@ -353,6 +362,10 @@ body {
     left: 40px;
 }
 
+.contato .cont-info .botao .fa-circle-arrow-right:active {
+    color: #5B917C;
+}
+
 .contato .cont-info .botao button {
     font-size: 20px;
     text-transform: uppercase;
@@ -361,4 +374,9 @@ body {
     color: #ffffff;
     border-radius: 15px;
     border: none;
+}
+
+.contato .cont-info .botao button:active {
+    background: #ffffff;
+    color: #5B917C;
 }

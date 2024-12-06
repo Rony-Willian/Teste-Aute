@@ -17,9 +17,9 @@
     <header class="header">
         <nav>
             <ul class="menu">
-                <li><a href="./index.html">Início</a></li>
+                <li><a href="./index.html" class="ativo">Início</a></li>
                 <li><a href="./projeto.html">Projetos</a></li>
-                <li><a href="/contato">Conato</a></li>
+                <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -117,7 +117,7 @@
                 <i class="fa-solid fa-circle-arrow-down"></i>
             </div>
             
-            <div class="cases aberto">
+            <div class="case aberto" id="case-grupo-leticia-dantas">
                 <img src="https://placehold.co/750x550" alt="">
                 
                 <div class="info">
@@ -125,12 +125,12 @@
 
                     <h3>Grupo Letícia Dantas</h3>
 
-                    <i class="fa-solid fa-circle-arrow-right"></i>
+                    <i class="fa-solid fa-circle-arrow-right cases" id="estilogran"></i>
                 </div>
                 
             </div>
 
-            <div class="cases">
+            <div class="case" id="case-estilogran">
                 <img src="https://placehold.co/750x550" alt="">
 
                 <div class="info">
@@ -138,7 +138,7 @@
 
                     <h3>EstiloGran - Marmóres & Granitos</h3>
 
-                    <i class="fa-solid fa-circle-arrow-right"></i>
+                    <i class="fa-solid fa-circle-arrow-right cases" id="grupo-leticia-dantas"></i>
                 </div>
                 
             </div>
@@ -172,8 +172,8 @@
                 </div>
                 
                 <div class="botao">
-                    <i class="fa-solid fa-circle-arrow-right"></i>
-                    <button>Iniciar projeto</button>
+                    <i class="fa-solid fa-circle-arrow-right" for="botao"></i>
+                    <button id="botao">Iniciar projeto</button>
                 </div>
                 
 
@@ -181,5 +181,6 @@
             
         </section>
     </main>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>

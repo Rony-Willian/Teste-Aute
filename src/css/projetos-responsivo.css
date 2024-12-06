@@ -33,20 +33,20 @@
 
 
 
-    .cases {
+    .listagem-cases {
         margin-left: 170px;
         margin-bottom: 250px;
         width: 1220px;
         height: 900px;
     }
     
-    .cases .case .image img {
+    .listagem-cases .case .image img {
         border-radius: 80px;
         width: 1220px;
         height: 770px;
     }
     
-    .cases .case .image .fa-circle-arrow-right {
+    .listagem-cases .case .image .fa-circle-arrow-right {
         font-size: 60px;
         position: relative;
         bottom: 355px;
@@ -54,28 +54,28 @@
         width: 60px;
     }
     
-    .cases .case .info{
+    .listagem-cases .case .info{
         padding-top: 40px;
         line-height: 45px;
     }
     
-    .cases .case .info h3 {
+    .listagem-cases .case .info h3 {
         font-size: 60px;
         width: 640px;
     }
     
-    .cases .case .info p {
+    .listagem-cases .case .info p {
         font-size: 35px;
         width: 460px;
     }
     
-    .cases .case .info .botao {
+    .listagem-cases .case .info .botao {
         width: 345px;
         height: 60px;
         padding-top: 15px;
     }
     
-    .cases .case .info .botao button {
+    .listagem-cases .case .info .botao button {
         width: 345px;
         height: 60px;
         border-radius: 10px;
@@ -83,7 +83,7 @@
         font-size: 28px;
     }
     
-    .cases .case .info .botao .fa-circle-arrow-right {
+    .listagem-cases .case .info .botao .fa-circle-arrow-right {
         position: relative;
         left: 270px;
         bottom: 48px;

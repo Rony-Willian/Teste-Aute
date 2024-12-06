@@ -26,6 +26,11 @@ body {
     text-transform: uppercase;
 }
 
+.menu li .ativo {
+    border-bottom: solid 1px #000000;
+}
+
+
 
 
 .home {
@@ -56,7 +61,7 @@ body {
 
 
 
-.cases {
+.listagem-cases {
     margin-left: 140px;
     margin-bottom: 250px;
     width: 1040px;
@@ -64,27 +69,27 @@ body {
     display: flex;
 }
 
-.cases .case {
+.listagem-cases .case {
     display: none;
 }
 
-.cases .case.aberto {
+.listagem-cases .case.aberto {
     display: flex;
     flex-flow: column;
 }
 
-.cases .case .image {
+.listagem-cases .case .image {
     display: flex;
     align-items: flex-end;
 }
 
-.cases .case .image img {
+.listagem-cases .case .image img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 30px;
 }
 
-.cases .case .image .fa-circle-arrow-right {
+.listagem-cases .case .image .fa-circle-arrow-right {
     font-size: 40px;
     position: relative;
     bottom: 305px;
@@ -95,46 +100,57 @@ body {
     background: #305973;
 }
 
-.cases .case .info{
+.listagem-cases .case .image .fa-circle-arrow-right:active {
+    color: #305973;
+    background: #ffffff;
+}
+
+.listagem-cases .case .info{
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.cases .case .info h3 {
+.listagem-cases .case .info h3 {
     font-size: 50px;
     width: 550px;
     
 }
 
-.cases .case .info p {
+.listagem-cases .case .info p {
     font-size: 30px;
     width: 370px;
     align-items: flex-start;
     margin-top: auto;
 }
 
-.cases .case .info .botao {
+.listagem-cases .case .info .botao {
     width: 290px;
     height: 60px;
     justify-content: center;
     padding-top: 20px;
 }
 
-.cases .case .info .botao button {
+.listagem-cases .case .info .botao button {
     width: 290px;
     height: 50px;
     border-radius: 8px;
     border: none;
     background: #262626;
+    color: #ffffff;
     text-align: start;
     padding-left: 30px;
-    color: #ffffff;
     font-size: 25px;
     text-transform: uppercase;
 }
 
-.cases .case .info .botao .fa-circle-arrow-right {
+.listagem-cases .case .info .botao button:active {
+    background: #ffffff;
+    color: #262626;
+    border: #262626 1px solid;
+}
+
+.listagem-cases .case .info .botao .fa-circle-arrow-right {
     position: relative;
     left: 240px;
     bottom: 38px;
@@ -235,6 +251,10 @@ body {
     left: 40px;
 }
 
+.contato .cont-info .botao .fa-circle-arrow-right:active {
+    color: #5B917C;
+}
+
 .contato .cont-info .botao button {
     font-size: 20px;
     text-transform: uppercase;
@@ -243,4 +263,9 @@ body {
     color: #ffffff;
     border-radius: 15px;
     border: none;
+}
+
+.contato .cont-info .botao button:active {
+    background: #ffffff;
+    color: #5B917C;
 }
